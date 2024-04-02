@@ -9,7 +9,7 @@ export const Nav = styled.nav`
     justify-content: space-between;
     text-transform: uppercase;
     align-items: center;
-    
+
     font-size: 1.5rem;
 
     a{
@@ -20,7 +20,7 @@ export const Nav = styled.nav`
 export const DivLogo = styled.div`
     display: flex;
     justify-content: space-evenly;
-    width: 15vw;
+    width: 20vw;
 `
 export const DivNav = styled.div`
     display: flex;
@@ -37,9 +37,26 @@ export const DivNav = styled.div`
 // MAIN
 export const Main = styled.main`
     background-color: cadetblue;
+    height: 40vh;
 `
 
 // FOOTER
 export const Footer = styled.footer`
     background-color: red;
+    height: 10vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    img{
+        /* width: 10vw; */
+        height: 10vh;
+    }
 `
+
+//  SOBRE
+
+
+
+// PROJETOS

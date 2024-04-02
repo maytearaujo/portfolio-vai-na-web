@@ -1,8 +1,9 @@
 import React from "react";
+import * as S from "./Style"
 
 function Projetos(){
     return(
-        <h2>Hello Projetos</h2>
+        <S.Main>Hello Projetos</S.Main>
     )
 }
 

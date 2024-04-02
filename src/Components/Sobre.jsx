@@ -1,8 +1,9 @@
 import React from "react";
+import * as S from "./Style"
 
 function Sobre(){
     return(
-        <h2>Hello Sobre</h2>
+        <S.Main>Hello Sobre</S.Main>
     )
 }
 
