@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 // HEADER
 export const Nav = styled.nav`
-    background-color: aquamarine;
+    background-color: #f6e6e0;
     height: 8vh;
 
     display: flex;
@@ -34,25 +34,81 @@ export const DivNav = styled.div`
     }
 `
 
-// MAIN
+// HOME
 export const Main = styled.main`
-    background-color: cadetblue;
+    background-color: #7689d8;
     height: 40vh;
 `
+export const SectionHome = styled.section`
+    /* border: solid yellow; */
+    display: flex;
+    justify-content: space-around;
+`
+export const DivSocialMediaHome = styled.div`
+    /* border: solid green; */
+
+    height: 50vh;
+    width: 6vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; 
+
+    img{
+        height: 3rem;
+    }
+`
+
+export const DivHomeLeft = styled.div`
+    /* border: solid black; */
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+`
+export const DivConhecimentos = styled.div`
+    /* border: solid orange; */
+
+    width: 25vw;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    img{
+        width: 3rem;;
+    }
+`
+
+export const DivHomeRight = styled.div`
+    /* border: solid red; */
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`
+
 
 // FOOTER
 export const Footer = styled.footer`
-    background-color: red;
-    height: 10vh;
+    background-color: #e1b4e5;
+    height: 20vh;
     
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: space-evenly;    /* border: solid yellow; */
     img{
         /* width: 10vw; */
         height: 10vh;
     }
+`
+
+export const DivSocialMedia = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: solid blue; */
 `
 
 //  SOBRE

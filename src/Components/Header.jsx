@@ -1,5 +1,5 @@
 import React from "react";
-import Main from "./Main"
+import Home from "./Home"
 import Sobre from "./Sobre"
 import Projetos from "./Projetos"
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
@@ -28,7 +28,7 @@ function Header(){
         </S.Nav>
         
         <Routes>
-            <Route path="/" element={<Main />} />
+            <Route path="/" element={<Home />} />
             <Route path="Sobre" element={<Sobre />} />
             <Route path="Projetos" element={<Projetos />} />
         </Routes>
