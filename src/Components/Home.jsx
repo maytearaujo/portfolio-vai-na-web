@@ -23,7 +23,7 @@ function Home(){
                     quando coloco o linkedin o projeto não sobe para o vercel
                     - troquei a imagem
                     - Fiz algumas modificações sugeridas no Stack over flow
-                    - mudei o nome do arquivo
+                    - mudei o nome do arquivo para o teste e funcionou
                     */}
                     <a href="https://www.linkedin.com/in/maytearaujo/" target="_blank">
                         <img src={Teste} alt="Logo Linkedin" />
