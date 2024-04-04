@@ -2,7 +2,6 @@ import React from "react";
 import * as S from "./Style" 
 
 import Github from "../assets/github.png"
-import LinkedinHome from "../assets/linkedin.png"
 // import Linkedin from "../assets/linkedin.png"
 import HTML from "../assets/html.png"
 import CSS from "../assets/css.png"
@@ -20,7 +19,7 @@ function Home(){
                 <S.DivSocialMediaHome>
                     <a href="https://www.linkedin.com/in/maytearaujo/" target="_blank">
                         {/* <img src={Linkedin} alt="Logo Linkedin" /> */}
-                        <img src={LinkedinHome} alt="Logo Linkedin" />
+                        {/* <img src={LinkedinHome} alt="Logo Linkedin" /> */}
                     </a>
                     <a href="https://github.com/maytearaujo" target="_blank">
                         <img src={Github} alt="Logo Github" />
