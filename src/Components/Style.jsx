@@ -134,7 +134,7 @@ export const DivHomeRight = styled.div`
 
 
 // FOOTER
-export const Footer = styled.footer`
+export const SectionFooter = styled.footer`
     background-color: #e1b4e5;
     height: 16vh;
     

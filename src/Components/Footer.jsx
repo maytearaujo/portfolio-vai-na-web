@@ -5,7 +5,7 @@ import * as S from "./Style"
 
 function Footer(){
     return(
-        <S.Footer>
+        <S.SectionFooter>
             <S.DivSocialMedia>
                 <a href="https://www.linkedin.com/in/maytearaujo/" target="_blank">
                     <img src={Linkedin} alt="Logo Linkedin" />
@@ -15,7 +15,7 @@ function Footer(){
                 </a>
             </S.DivSocialMedia>
             <p>By Maytê Araújo</p>
-        </S.Footer>
+        </S.SectionFooter>
     )
 }
 
