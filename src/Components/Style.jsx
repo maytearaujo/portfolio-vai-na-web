@@ -14,29 +14,28 @@ export const Nav = styled.nav`
 
     a{
         text-decoration: none;
-    
 
-    color: #7689d8;
-  line-height: 1.5;
-  position: relative;
-}
+        color: #7689d8;
+        line-height: 1.5;
+        position: relative;
+    }
 
-a::before {
-  content: '';
-  width: 0;
-  height: 2px;
-  border-radius: 2px;
-  background-color: #7689d8;
-  position: absolute;
-  bottom: -.25rem;
-  left: 50%;
-  transition: width .4s, left .4s;
-}
+    a::before {
+    content: '';
+    width: 0;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #7689d8;
+    position: absolute;
+    bottom: -.25rem;
+    left: 50%;
+    transition: width .4s, left .4s;
+    }
 
-a:hover::before {
-  width: 100%;
-  left: 0;
-}
+    a:hover::before {
+    width: 100%;
+    left: 0;
+    }
 `
 
 export const DivLogo = styled.div`
@@ -57,7 +56,7 @@ export const DivNav = styled.div`
 `
 
 // HOME
-export const Main = styled.main`
+export const MainHome = styled.main`
     background-color: #7689d8;
     height: 76vh;
     display: flex;
@@ -164,7 +163,27 @@ export const DivSocialMedia = styled.div`
 `
 
 //  SOBRE
+export const MainSobre = styled.main`
+    background-color: #7689d8;
+    height: 76vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
+    p{
+        padding: 1rem;
+        
+    }
+`
 
 
 // PROJETOS
+export const MainProjetos = styled.main`
+    background-color: #7689d8;
+    height: 76vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+`

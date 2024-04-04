@@ -3,9 +3,9 @@ import * as S from "./Style"
 
 function Projetos(){
     return(
-        <S.Main>
+        <S.MainProjetos>
             <h2>Projetos</h2>
-        </S.Main>
+        </S.MainProjetos>
     )
 }
 
