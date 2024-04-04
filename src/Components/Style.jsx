@@ -59,7 +59,7 @@ export const DivNav = styled.div`
 // HOME
 export const Main = styled.main`
     background-color: #7689d8;
-    height: 70vh;
+    height: 76vh;
     display: flex;
     align-items: center;
     justify-content: left;
@@ -136,7 +136,7 @@ export const DivHomeRight = styled.div`
 // FOOTER
 export const Footer = styled.footer`
     background-color: #e1b4e5;
-    height: 20vh;
+    height: 16vh;
     
     display: flex;
     flex-direction: column;
@@ -144,7 +144,7 @@ export const Footer = styled.footer`
     justify-content: space-evenly;    /* border: solid yellow; */
     img{
         /* width: 10vw; */
-        height: 10vh;
+        height: 8vh;
     }
 
     img:hover {
@@ -157,7 +157,9 @@ export const Footer = styled.footer`
 export const DivSocialMedia = styled.div`
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+
+    width: 10%;
     /* border: solid blue; */
 `
 

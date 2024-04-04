@@ -6,7 +6,6 @@ import * as S from "./Style"
 function Footer(){
     return(
         <S.Footer>
-            <h3>Maytê Araújo</h3>
             <S.DivSocialMedia>
                 <a href="https://www.linkedin.com/in/maytearaujo/" target="_blank">
                     <img src={Linkedin} alt="Logo Linkedin" />
@@ -15,6 +14,7 @@ function Footer(){
                     <img src={Github} alt="Logo Github" />
                 </a>
             </S.DivSocialMedia>
+            <p>By Maytê Araújo</p>
         </S.Footer>
     )
 }
