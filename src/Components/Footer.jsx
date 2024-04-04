@@ -12,7 +12,7 @@ function Footer(){
                     <img src={Linkedin} alt="Logo Linkedin" />
                 </a>
                 <a href="https://github.com/maytearaujo" target="_blank">
-                    <img src={Github} alt="Logo GitHub" />
+                    <img src={Github} alt="Logo Github" />
                 </a>
             </S.DivSocialMedia>
         </S.Footer>

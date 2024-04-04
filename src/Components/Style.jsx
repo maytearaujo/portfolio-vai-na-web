@@ -14,7 +14,29 @@ export const Nav = styled.nav`
 
     a{
         text-decoration: none;
-    }
+    
+
+    color: #7689d8;
+  line-height: 1.5;
+  position: relative;
+}
+
+a::before {
+  content: '';
+  width: 0;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #7689d8;
+  position: absolute;
+  bottom: -.25rem;
+  left: 50%;
+  transition: width .4s, left .4s;
+}
+
+a:hover::before {
+  width: 100%;
+  left: 0;
+}
 `
 
 export const DivLogo = styled.div`
@@ -37,7 +59,11 @@ export const DivNav = styled.div`
 // HOME
 export const Main = styled.main`
     background-color: #7689d8;
-    height: 40vh;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    /* border: solid red; */
 `
 export const SectionHome = styled.section`
     /* border: solid yellow; */
@@ -58,6 +84,12 @@ export const DivSocialMediaHome = styled.div`
     img{
         height: 3rem;
     }
+
+    img:hover {
+  background-color: #e1b4e5;
+  border-radius: 50%;
+  transform: scale(1.1);
+  }
 `
 
 export const DivHomeLeft = styled.div`
@@ -67,6 +99,13 @@ export const DivHomeLeft = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    img:hover {
+  /* background-color: #f6e6e0; */
+  /* border-radius: 50%; */
+  transform: scale(1.1);
+  }
+  
 `
 export const DivConhecimentos = styled.div`
     /* border: solid orange; */
@@ -86,6 +125,11 @@ export const DivHomeRight = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    img{
+        width: 25rem;
+        border-radius: 50%;
+    }
 `
 
 
@@ -102,6 +146,12 @@ export const Footer = styled.footer`
         /* width: 10vw; */
         height: 10vh;
     }
+
+    img:hover {
+  background-color: #7689d8;
+  border-radius: 50%;
+  transform: scale(1.1);
+  }
 `
 
 export const DivSocialMedia = styled.div`

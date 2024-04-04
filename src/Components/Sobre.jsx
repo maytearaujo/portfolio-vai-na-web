@@ -3,7 +3,9 @@ import * as S from "./Style"
 
 function Sobre(){
     return(
-        <S.Main>Hello Sobre</S.Main>
+        <S.Main>
+            <h2>Sobre</h2>
+        </S.Main>
     )
 }
 

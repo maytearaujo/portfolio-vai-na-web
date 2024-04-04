@@ -9,7 +9,7 @@ import Javascript from "../assets/javascript.png"
 import Git from "../assets/git.png"
 import React_img from "../assets/react.png"
 
-import Manutencao from "../assets/manutencao.png"
+import Woman from "../assets/woman.jpg"
 
 function Home(){
     return(
@@ -42,7 +42,7 @@ function Home(){
                 </S.DivHomeLeft>
                 
                 <S.DivHomeRight>
-                    <img src={Manutencao} alt="Capacete de trabalhadores de manutenção" />
+                    <img src={Woman} alt="Capacete de trabalhadores de manutenção" />
                 </S.DivHomeRight>
                 
             </S.SectionHome>                 

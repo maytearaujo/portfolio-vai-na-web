@@ -3,7 +3,9 @@ import * as S from "./Style"
 
 function Projetos(){
     return(
-        <S.Main>Hello Projetos</S.Main>
+        <S.Main>
+            <h2>Projetos</h2>
+        </S.Main>
     )
 }
 

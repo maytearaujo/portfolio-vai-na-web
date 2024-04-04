@@ -11,7 +11,7 @@ function Header(){
         <BrowserRouter>
         <S.Nav>
             <S.DivLogo>
-                <Link to="/">&lt;Maytê Araújo &frasl;&gt;</Link>
+                <Link to="/">&lt; Maytê's &frasl;&gt;</Link>
             </S.DivLogo>
 
             <S.DivNav>
