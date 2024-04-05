@@ -49,7 +49,7 @@ function Home(){
                             <img src={React_img} alt="React" />
                     </S.DivConhecimentos>
                     {/* <hr /> */}
-                        <a href="assets/Mayte Araújo.pdf" download="cv Maytê Araújo.pdf">Acesse
+                        <a href="../assets/CV Mayte Araujo.pdf" download="cv Maytê Araújo.pdf">Acesse
                     meu Curriculo</a>
                 </S.DivHomeLeft>
                 
