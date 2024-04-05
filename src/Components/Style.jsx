@@ -12,7 +12,6 @@ export const Nav = styled.nav`
 
   font-size: 1.5rem;
 
-
   a {
     text-decoration: none;
 
@@ -66,8 +65,7 @@ export const DivSocialMediaHome = styled.div`
   align-items: end;
   justify-content: center;
 
-
-  div{
+  div {
     /* border: solid pink; */
 
     height: 20%;
@@ -97,23 +95,23 @@ export const DivHomeLeft = styled.div`
   justify-content: center;
   align-items: center;
 
-  h1{
+  h1 {
     border: 1rem;
     padding: 1rem;
   }
 
-  h2{
+  h2 {
     border: 1rem;
     padding-bottom: 3.5rem;
   }
 
-  h3{
-    padding-bottom: .8rem;
+  h3 {
+    padding-bottom: 0.8rem;
   }
 
   a {
     padding-top: 1.5rem;
-    text-decoration: none ;
+    text-decoration: none;
   }
 `;
 export const DivConhecimentos = styled.div`
@@ -124,7 +122,7 @@ export const DivConhecimentos = styled.div`
   height: 10%;
   display: flex;
   justify-content: space-around;
-  
+
   img {
     width: 3rem;
   }
@@ -142,8 +140,12 @@ export const DivHomeRight = styled.div`
   align-items: center;
 
   img {
-    width: 25rem;
     border-radius: 50%;
+
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
   }
 `;
 
