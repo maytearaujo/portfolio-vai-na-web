@@ -12,6 +12,7 @@ export const Nav = styled.nav`
 
   font-size: 1.5rem;
 
+
   a {
     text-decoration: none;
 
@@ -20,21 +21,10 @@ export const Nav = styled.nav`
     position: relative;
   }
 
-  a::before {
-    content: "";
-    width: 0;
-    height: 2px;
-    border-radius: 2px;
-    background-color: #7689d8;
-    position: absolute;
-    bottom: -0.25rem;
-    left: 50%;
-    transition: width 0.4s, left 0.4s;
-  }
-
-  a:hover::before {
-    width: 100%;
-    left: 0;
+  a:hover {
+    color: #fff;
+    font-weight: 800;
+    /* transform: scale(1.3); */
   }
 `;
 
@@ -49,10 +39,6 @@ export const DivNav = styled.div`
   align-items: center;
   width: 35vw;
   list-style-type: none;
-
-  a {
-    text-decoration: none;
-  }
 `;
 
 // HOME
@@ -67,21 +53,32 @@ export const MainHome = styled.main`
 export const SectionHome = styled.section`
   /* border: solid yellow; */
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-between; */
 `;
 export const DivSocialMediaHome = styled.div`
   /* border: solid green; */
 
-  height: 50vh;
-  width: 6vw;
+  /* height: 50vh; */
+  width: 10vw;
 
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
+  align-items: end;
+  justify-content: center;
+
+
+  div{
+    /* border: solid pink; */
+
+    height: 20%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
 
   img {
-    height: 3rem;
+    height: 2rem;
   }
 
   img:hover {
@@ -94,26 +91,46 @@ export const DivSocialMediaHome = styled.div`
 export const DivHomeLeft = styled.div`
   /* border: solid black; */
   width: 30vw;
+
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 
-  img:hover {
-    /* background-color: #f6e6e0; */
-    /* border-radius: 50%; */
-    transform: scale(1.1);
+  h1{
+    border: 1rem;
+    padding: 1rem;
+  }
+
+  h2{
+    border: 1rem;
+    padding-bottom: 3.5rem;
+  }
+
+  h3{
+    padding-bottom: .8rem;
+  }
+
+  a {
+    padding-top: 1.5rem;
+    text-decoration: none ;
   }
 `;
 export const DivConhecimentos = styled.div`
-  /* border: solid orange; */
+  border-top: 2rem;
+  /* padding: 1px; */
 
   width: 25vw;
   height: 10%;
   display: flex;
   justify-content: space-around;
+  
   img {
     width: 3rem;
+  }
+
+  img:hover {
+    transform: scale(1.5);
   }
 `;
 
@@ -183,22 +200,21 @@ export const MainProjetos = styled.main`
   align-items: center;
   padding: 1rem;
   justify-content: top;
-
 `;
 
 export const Cards = styled.div`
   /* border: solid red; */
-  
+
   width: 99%;
   height: 90%;
-  
+
   display: flex;
 
   justify-content: space-evenly;
   /* align-items: center; */
 
   padding: 1rem;
-`
+`;
 export const Card = styled.div`
   /* border: solid green; */
 
@@ -207,27 +223,25 @@ export const Card = styled.div`
   justify-content: space-between;
   align-items: center;
 
- padding: .5rem;
- 
- img{
-  width: 80%;
-  height: 50%;
- }
+  padding: 0.5rem;
+
+  img {
+    width: 80%;
+    height: 50%;
+  }
 `;
 
 export const DivSocialMediaProjetos = styled.div`
-  
   display: flex;
   align-items: center;
   justify-content: space-around;
   /* border: solid pink; */
 
-   width: 40%;
+  width: 40%;
 
-   padding: .6rem;
+  padding: 0.6rem;
   img {
     height: 2.5rem;
     width: 2.5rem;
-  }    
-  
-`
+  }
+`;

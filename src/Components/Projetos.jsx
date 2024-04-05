@@ -26,6 +26,21 @@ function Projetos() {
         </S.Card>
 
         <S.Card>
+          <h3>Borcele</h3>
+          <img src={Borcele} alt="Borcele" />
+          <p>
+            Projeto desenvolvido durante as aulas de React no curso de 
+            desenvolvimento web para mulheres realizado pelo Vai na Web.
+          </p>
+          <S.DivSocialMediaProjetos>
+            <img src={Globe} alt="Portfolio Elas na Tech" />
+            
+            <img src={Github} alt="Projeto Github" />
+            
+          </S.DivSocialMediaProjetos>
+        </S.Card>
+
+        <S.Card>
           <h3>Elas na tech</h3>
           <img src={ElasNaTech} alt="Elas na Tech" />
           <p>
@@ -41,20 +56,8 @@ function Projetos() {
           </S.DivSocialMediaProjetos>
         </S.Card>
 
-        <S.Card>
-          <h3>Borcele</h3>
-          <img src={Borcele} alt="Borcele" />
-          <p>
-            Projeto desenvolvido durante as aulas de React no curso de 
-            desenvolvimento web para mulheres realizado pelo Vai na Web.
-          </p>
-          <S.DivSocialMediaProjetos>
-            <img src={Globe} alt="Portfolio Elas na Tech" />
-            
-            <img src={Github} alt="Projeto Github" />
-            
-          </S.DivSocialMediaProjetos>
-        </S.Card>
+
+
 
       </S.Cards>
     </S.MainProjetos>

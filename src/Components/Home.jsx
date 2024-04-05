@@ -25,18 +25,22 @@ function Home(){
                     - Fiz algumas modificações sugeridas no Stack over flow
                     - mudei o nome do arquivo para o teste e funcionou
                     */}
-                    <a href="https://www.linkedin.com/in/maytearaujo/" target="_blank">
-                        <img src={Teste} alt="Logo Linkedin" />
-                    </a>
-                    <a href="https://github.com/maytearaujo" target="_blank">
-                        <img src={Github} alt="Logo Github" />
-                    </a>
+                    <div>                    
+                        <a href="https://www.linkedin.com/in/maytearaujo/" target="_blank">
+                            <img src={Teste} alt="Logo Linkedin" />
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://github.com/maytearaujo" target="_blank">
+                            <img src={Github} alt="Logo Github" />
+                        </a>
+                    </div>
                 </S.DivSocialMediaHome>
                 
                 <S.DivHomeLeft>
                     <h1>Maytê Araújo</h1>
                     <h2>Desenvolvedora Front End</h2>
-                        <h4>Conhecimentos</h4>
+                        <h3>Conhecimentos</h3>
                     <S.DivConhecimentos>
                             <img src={HTML} alt="HTML" />
                             <img src={CSS} alt="CSS" />
@@ -44,7 +48,7 @@ function Home(){
                             <img src={Git} alt="GIT" />
                             <img src={React_img} alt="React" />
                     </S.DivConhecimentos>
-                    <hr />
+                    {/* <hr /> */}
                         <a href="assets/Mayte Araújo.pdf" download="cv Maytê Araújo.pdf">Acesse
                     meu Curriculo</a>
                 </S.DivHomeLeft>
