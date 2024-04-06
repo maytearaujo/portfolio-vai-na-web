@@ -9,6 +9,8 @@ import Javascript from "../assets/javascript.png"
 import Git from "../assets/git.png"
 import React_img from "../assets/react.png"
 
+import Curriculo from "../assets/CV_Mayte_Araujo.pdf"
+
 import Woman from "../assets/woman.jpg"
 
 function Home(){
@@ -50,8 +52,8 @@ function Home(){
                     </S.DivConhecimentos>
                     {/* <hr /> */}
                     {/* verificar pq quando sobe para o vercel não faz download do curriculo */}
-                        {/* <a href="../assets/CV Mayte Araujo.pdf" download="cv Maytê Araújo.pdf">Acesse
-                    meu Curriculo</a> */}
+                        <a href={Curriculo} download="cv Maytê Araújo.pdf">Acesse
+                    meu Curriculo</a>
                 </S.DivHomeLeft>
                 
                 <S.DivHomeRight>
