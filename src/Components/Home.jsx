@@ -2,7 +2,7 @@ import React from "react";
 import * as S from "./Style" 
 
 import Github from "../assets/github.png"
-import Teste from "../assets/teste.png"
+import Linkedin from "../assets/linkedin.png"
 import HTML from "../assets/html.png"
 import CSS from "../assets/css.png"
 import Javascript from "../assets/javascript.png"
@@ -29,7 +29,7 @@ function Home(){
                     */}
                     <div>                    
                         <a href="https://www.linkedin.com/in/maytearaujo/" target="_blank">
-                            <img src={Teste} alt="Logo Linkedin" />
+                            <img src={Linkedin} alt="Logo Linkedin" />
                         </a>
                     </div>
                     <div>
