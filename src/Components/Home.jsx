@@ -19,14 +19,6 @@ function Home(){
         <S.MainHome>
             <S.SectionHome>
                 <S.DivSocialMediaHome>
-                    {/* ============
-                    
-                    VERIFICAR ESTA SITUAÇÃO
-                    quando coloco o linkedin o projeto não sobe para o vercel
-                    - troquei a imagem
-                    - Fiz algumas modificações sugeridas no Stack over flow
-                    - mudei o nome do arquivo para o teste e funcionou
-                    */}
                     <div>                    
                         <a href="https://www.linkedin.com/in/maytearaujo/" target="_blank">
                             <img src={Linkedin} alt="Logo Linkedin" />
@@ -49,10 +41,8 @@ function Home(){
                             <img src={Javascript} alt="Javascript" />
                             <img src={Git} alt="GIT" />
                             <img src={React_img} alt="React" />
-                    </S.DivConhecimentos>
-                    {/* <hr /> */}
-                    {/* verificar pq quando sobe para o vercel não faz download do curriculo */}
-                        <a href={Curriculo} download="cv Maytê Araújo.pdf">Acesse
+                    </S.DivConhecimentos>                    
+                    <a href={Curriculo} download="cv Maytê Araújo.pdf">Acesse
                     meu Curriculo</a>
                 </S.DivHomeLeft>
                 

@@ -118,6 +118,8 @@ export const DivHomeLeft = styled.div`
   a {
     padding-top: 1.5rem;
     text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
   }
 `;
 export const DivConhecimentos = styled.div`
@@ -229,11 +231,16 @@ export const Cards = styled.div`
   display: flex;
 
   justify-content: space-evenly;
-  /* align-items: center; */
+  /* align-items: end; */
 
-  padding: 1rem;
 
-  p, h3, h4{
+  padding: 1.5rem 1rem;
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p, h4{
     font-size: 1.3rem;
   }
 `;
@@ -249,15 +256,20 @@ export const Card = styled.div`
   padding: 0.5rem;
   width: 35%;
 
-  img {
+  .imgProjeto {
     width: 90%;
     height: 50%;
+    /* border: solid violet; */
+    padding: .6rem 0;
   }
 
   img:hover {
-    /* background-color: #e1b4e5; */
-    /* border-radius: 50%; */
     transform: scale(1.1);
+  }
+
+  p{
+    /* border: solid yellow; */
+    margin: 1rem;
   }
 `;
 

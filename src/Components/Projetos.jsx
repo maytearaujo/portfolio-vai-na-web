@@ -14,7 +14,7 @@ function Projetos() {
       <S.Cards>
         <S.Card>
           <h3>Fantastika</h3>
-          <img src={Fantastika} alt="Fantastika" />
+          <img className="imgProjeto" src={Fantastika} alt="Fantastika" />
           <h4>Desenvolvido em HTML e CSS.</h4>
           <p>
             Projeto de conclusão do  1º módulo do curso de desenvolvimento web para mulheres realizado pelo Vai Na Web.
@@ -32,7 +32,7 @@ function Projetos() {
 
         <S.Card>
           <h3>Doceria Borcelle</h3>
-          <img src={Borcelle} alt="Doceria Borcelle" />
+          <img className="imgProjeto" src={Borcelle} alt="Doceria Borcelle" />
           <h4>Desenvolvido em HTML, CSS e React.</h4>
           <p>Projeto desenvolvido durante as aulas de React no curso de desenvolvimento web para mulheres realizado pelo Vai na Web.
           </p>
@@ -48,7 +48,7 @@ function Projetos() {
 
         <S.Card>
           <h3>Cartoon Network</h3>
-          <img src={Cartoon} alt="Cartoon" />
+          <img className="imgProjeto" src={Cartoon} alt="Cartoon" />
           <h4>Desenvolvido em HTML, CSS, React, Styled Components.</h4>
           <p>Projeto desenvolvido durante as aulas de React no curso de desenvolvimento web para mulheres realizado pelo Vai na Web.
           </p>
