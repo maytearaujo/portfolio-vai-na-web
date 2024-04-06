@@ -4,7 +4,7 @@ import Github from "../assets/github.png";
 import Globe from "../assets/globe.png";
 
 import Borcelle from "../assets/projetos/borcelle.jpg";
-import Fantastika from "../assets/projetos/fantastika.jpg";
+import Fantastika from "../assets/projetos/Fantastika.jpg";
 import Cartoon from "../assets/projetos/cartoon.jpg";
 
 function Projetos() {
