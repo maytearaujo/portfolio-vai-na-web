@@ -235,11 +235,11 @@ export const Cards = styled.div`
   /* align-items: end; */
 
 
-  padding: 1rem;
+  padding: 1rem 0;
 
   h3 {
     font-size: 1.5rem;
-    padding-bottom: .6rem;
+    /* padding-bottom: .6rem; */
   }
 
   p, h4{
@@ -276,7 +276,7 @@ export const Card = styled.div`
 
   p{
     /* border: solid yellow; */
-    margin: 1rem;
+    margin: .8rem;
   }
 `;
 
