@@ -10,14 +10,17 @@ export const Nav = styled.nav`
   text-transform: uppercase;
   align-items: center;
 
+
   font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: .2rem;
 
   a {
+    color: #7689d8;
     text-decoration: none;
 
-    color: #7689d8;
     line-height: 1.5;
-    position: relative;
+    /* position: relative; */
   }
 
   a:hover {
@@ -98,6 +101,8 @@ export const DivHomeLeft = styled.div`
   h1 {
     border: 1rem;
     padding: 1rem;
+    font-size: 2rem;
+    /* font-style: italic bolder; */
   }
 
   h2 {
@@ -107,6 +112,7 @@ export const DivHomeLeft = styled.div`
 
   h3 {
     padding-bottom: 0.8rem;
+    font-size: 1.3rem;
   }
 
   a {
@@ -188,8 +194,14 @@ export const MainSobre = styled.main`
   align-items: center;
   justify-content: center;
 
+  h2 {
+    font-size: 1.9rem;
+  }
+
   p {
-    padding: 1rem;
+    padding: 3.5rem;
+    line-height: 1.8;
+    font-size: 1.35rem;
   }
 `;
 
@@ -202,6 +214,10 @@ export const MainProjetos = styled.main`
   align-items: center;
   padding: 1rem;
   justify-content: top;
+
+  h2 {
+    font-size: 1.8rem;
+  }
 `;
 
 export const Cards = styled.div`
@@ -216,7 +232,12 @@ export const Cards = styled.div`
   /* align-items: center; */
 
   padding: 1rem;
+
+  p, h3, h4{
+    font-size: 1.3rem;
+  }
 `;
+
 export const Card = styled.div`
   /* border: solid green; */
 
@@ -226,10 +247,17 @@ export const Card = styled.div`
   align-items: center;
 
   padding: 0.5rem;
+  width: 35%;
 
   img {
-    width: 80%;
+    width: 90%;
     height: 50%;
+  }
+
+  img:hover {
+    /* background-color: #e1b4e5; */
+    /* border-radius: 50%; */
+    transform: scale(1.1);
   }
 `;
 
@@ -242,8 +270,15 @@ export const DivSocialMediaProjetos = styled.div`
   width: 40%;
 
   padding: 0.6rem;
+
   img {
     height: 2.5rem;
     width: 2.5rem;
+  }
+
+  img:hover {
+    background-color: #e1b4e5;
+    border-radius: 50%;
+    transform: scale(1.1);
   }
 `;

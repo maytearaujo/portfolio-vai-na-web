@@ -8,12 +8,14 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    
+    font-family: "Roboto", sans-serif;    
     font-style: normal;  
-    font-size: 1.3rem;
-
+    
+    /* 
+    
+    font-weight: 400;
+    font-size: 1.3rem; */
   }
 `
 

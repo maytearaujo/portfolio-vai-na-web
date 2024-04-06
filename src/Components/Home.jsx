@@ -49,8 +49,9 @@ function Home(){
                             <img src={React_img} alt="React" />
                     </S.DivConhecimentos>
                     {/* <hr /> */}
-                        <a href="../assets/CV Mayte Araujo.pdf" download="cv Maytê Araújo.pdf">Acesse
-                    meu Curriculo</a>
+                    {/* verificar pq quando sobe para o vercel não faz download do curriculo */}
+                        {/* <a href="../assets/CV Mayte Araujo.pdf" download="cv Maytê Araújo.pdf">Acesse
+                    meu Curriculo</a> */}
                 </S.DivHomeLeft>
                 
                 <S.DivHomeRight>
