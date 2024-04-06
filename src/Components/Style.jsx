@@ -238,6 +238,7 @@ export const Cards = styled.div`
 
   h3 {
     font-size: 1.5rem;
+    padding-bottom: 1rem;
   }
 
   p, h4{
@@ -265,6 +266,11 @@ export const Card = styled.div`
 
   img:hover {
     transform: scale(1.1);
+  }
+
+  div{
+    padding-top: 1rem;
+    width: 90%;
   }
 
   p{
