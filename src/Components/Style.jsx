@@ -242,8 +242,12 @@ export const Cards = styled.div`
     /* padding-bottom: .6rem; */
   }
 
-  p, h4{
+  h4{
     font-size: 1.3rem;
+  }
+
+  p{
+    font-size: 1.2rem;
   }
 `;
 
