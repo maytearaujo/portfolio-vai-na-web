@@ -219,6 +219,7 @@ export const MainProjetos = styled.main`
 
   h2 {
     font-size: 1.8rem;
+    padding-bottom: 0;
   }
 `;
 
@@ -238,7 +239,7 @@ export const Cards = styled.div`
 
   h3 {
     font-size: 1.5rem;
-    padding-bottom: .8rem;
+    padding-bottom: .6rem;
   }
 
   p, h4{
@@ -261,7 +262,7 @@ export const Card = styled.div`
     width: 90%;
     height: 50%;
     /* border: solid violet; */
-    padding: .6rem 0;
+    padding: .3rem 0;
   }
 
   img:hover {
