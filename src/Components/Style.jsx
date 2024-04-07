@@ -28,12 +28,22 @@ export const Nav = styled.nav`
     font-weight: 800;
     /* transform: scale(1.3); */
   }
+
+  @media (max-width: 768px) {
+    height: 35vh;
+    
+  }
+
 `;
 
 export const DivLogo = styled.div`
   display: flex;
   justify-content: space-evenly;
   width: 20vw;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 export const DivNav = styled.div`
   display: flex;
@@ -41,6 +51,14 @@ export const DivNav = styled.div`
   align-items: center;
   width: 35vw;
   list-style-type: none;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    /* height: 30vh; */
+  }
+
 `;
 
 // HOME
@@ -86,6 +104,10 @@ export const DivSocialMediaHome = styled.div`
     background-color: #e1b4e5;
     border-radius: 50%;
     transform: scale(1.1);
+  }
+
+  @media (max-width: 768px) {
+    display: none;
   }
 `;
 

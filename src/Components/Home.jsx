@@ -17,7 +17,7 @@ function Home(){
     return(
 
         <S.MainHome>
-            <S.SectionHome>
+            {/* <S.SectionHome> */}
                 <S.DivSocialMediaHome>
                     <div>                    
                         <a href="https://www.linkedin.com/in/maytearaujo/" target="_blank">
@@ -50,7 +50,7 @@ function Home(){
                     <img src={Woman} alt="Capacete de trabalhadores de manutenção" />
                 </S.DivHomeRight>
                 
-            </S.SectionHome>                 
+            {/* </S.SectionHome>                  */}
         </S.MainHome>
     )
 }
