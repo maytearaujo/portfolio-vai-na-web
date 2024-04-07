@@ -10,10 +10,9 @@ export const Nav = styled.nav`
   text-transform: uppercase;
   align-items: center;
 
-
   font-size: 1.5rem;
   font-weight: 700;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
 
   a {
     color: #7689d8;
@@ -31,9 +30,7 @@ export const Nav = styled.nav`
 
   @media (max-width: 768px) {
     height: 35vh;
-    
   }
-
 `;
 
 export const DivLogo = styled.div`
@@ -58,7 +55,6 @@ export const DivNav = styled.div`
     /* justify-content: space-evenly; */
     /* height: 30vh; */
   }
-
 `;
 
 // HOME
@@ -190,7 +186,7 @@ export const SectionFooter = styled.footer`
   justify-content: space-evenly; /* border: solid yellow; */
   img {
     /* width: 10vw; */
-    height: 8vh;
+    /* height: 8vh; */
   }
 
   img:hover {
@@ -203,9 +199,13 @@ export const SectionFooter = styled.footer`
 export const DivSocialMedia = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 
-  width: 10%;
+  width: 24%;
+  img {
+    width: 6vw;
+    /* height: 8vh; */
+  }
   /* border: solid blue; */
 `;
 
@@ -216,18 +216,31 @@ export const MainSobre = styled.main`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+  padding: 1.5% 2.5%;
 
   h2 {
-    font-size: 1.9rem;
-  }
-
-  p {
-    padding: 3.5rem;
-    line-height: 1.8;
-    font-size: 1.35rem;
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
   }
 `;
+
+export const DivSobre = styled.div`
+  /* border: solid red; */
+  padding: 1vw;
+
+  p {
+    font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+    line-height: 1.8;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2rem;
+
+  }
+`;
+/* @media screen and (max-width: 768px) {
+    p {
+      font-size: clamp(2rem, 2.5vw, 3rem);
+    }
+  } */
 
 // PROJETOS
 export const MainProjetos = styled.main`
@@ -254,21 +267,18 @@ export const Cards = styled.div`
   display: flex;
 
   justify-content: space-evenly;
-  /* align-items: end; */
-
 
   padding: 1rem 0;
 
   h3 {
     font-size: 1.5rem;
-    /* padding-bottom: .6rem; */
   }
 
-  h4{
+  h4 {
     font-size: 1.3rem;
   }
 
-  p{
+  p {
     font-size: 1.2rem;
   }
 `;
@@ -288,21 +298,21 @@ export const Card = styled.div`
     width: 90%;
     height: 50%;
     /* border: solid violet; */
-    padding: .3rem 0;
+    padding: 0.3rem 0;
   }
 
   img:hover {
     transform: scale(1.1);
   }
 
-  div{
-    padding-top: .8rem;
+  div {
+    padding-top: 0.8rem;
     width: 90%;
   }
 
-  p{
+  p {
     /* border: solid yellow; */
-    margin: .8rem;
+    margin: 0.8rem;
   }
 `;
 
