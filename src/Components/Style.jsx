@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 // HEADER
 export const Nav = styled.nav`
-  background-color: #f6e6e0;
-  height: 8vh;
+  background-color: #e1b4e5;
+  height: 20vh;
 
   display: flex;
   justify-content: space-between;
@@ -28,30 +28,33 @@ export const Nav = styled.nav`
     /* transform: scale(1.3); */
   }
 
-  @media (max-width: 768px) {
-    height: 35vh;
+  @media (min-width: 768px) {
+    height: 8vh;
   }
 `;
 
 export const DivLogo = styled.div`
-  display: flex;
+  display: none;
   justify-content: space-evenly;
   width: 20vw;
 
-  @media (max-width: 768px) {
-    display: none;
+  /* @media(min-width: 320px) and (max-width: 768px){ */
+  @media (min-width: 768px){
+    display: flex;
   }
 `;
 export const DivNav = styled.div`
   display: flex;
+  flex-direction: column; 
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   width: 35vw;
   list-style-type: none;
 
-  @media (max-width: 768px) {
-    display: flex;
-    flex-direction: column;
+  @media (min-width: 768px) {
+    /* display: flex;*/
+    flex-direction: row; 
     /* justify-content: space-evenly; */
     /* height: 30vh; */
   }
@@ -65,10 +68,11 @@ export const MainHome = styled.main`
   align-items: center;
   justify-content: left;
   /* border: solid red; */
+  padding: 3vw;
 `;
 export const SectionHome = styled.section`
   /* border: solid yellow; */
-  display: flex;
+  /* display: flex; */
   /* justify-content: space-between; */
 `;
 export const DivSocialMediaHome = styled.div`
@@ -109,35 +113,54 @@ export const DivSocialMediaHome = styled.div`
 
 export const DivHomeLeft = styled.div`
   /* border: solid black; */
-  width: 30vw;
+  /* width: 50vw; */
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+
 
   h1 {
-    border: 1rem;
-    padding: 1rem;
-    font-size: 2rem;
-    /* font-style: italic bolder; */
+    margin: 1rem;
+    font-size: clamp(4.5vw, 5.5vw, 6.5vw);
   }
 
   h2 {
-    border: 1rem;
-    padding-bottom: 3.5rem;
+    margin: 1rem;
+    margin-bottom: 3.5rem;
+    font-size: clamp(3.5vw, 4.5vw, 5.5vw);
   }
 
   h3 {
-    padding-bottom: 0.8rem;
-    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+    font-size: clamp(2.5vw, 3.5vw, 4.5vw);
   }
 
   a {
-    padding-top: 1.5rem;
+    margin-top: 2.5vw;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: clamp(1.8vw, 2.8vw, 3.8vw);
     color: #fff;
+  }
+
+  @media (min-width: 768px) {
+    h1 {
+    font-size: clamp(2.5vw, 2.5vw, 6.5vw);
+  }
+
+  h2 {
+    font-size: clamp(1.5vw, 2vw, 3vw);
+  }
+
+  h3 {
+    font-size: clamp(1vw, 1.3vw, 1.5vw);
+  }
+
+  a {
+    font-size: clamp(1vw, 1.3vw, 2vw);
+  }
   }
 `;
 export const DivConhecimentos = styled.div`
@@ -148,6 +171,7 @@ export const DivConhecimentos = styled.div`
   height: 10%;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 
   img {
     width: 3rem;
@@ -160,7 +184,7 @@ export const DivConhecimentos = styled.div`
 
 export const DivHomeRight = styled.div`
   /* border: solid red; */
-  width: 60vw;
+  width: 50vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -171,7 +195,8 @@ export const DivHomeRight = styled.div`
     max-width: 50%;
     height: auto;
     display: block;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    border: solid #7689d8;
   }
 `;
 
